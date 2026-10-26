@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="ice-top" x1="6" y1="4" x2="24" y2="16" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4FCFF"/>
+      <stop offset="1" stop-color="#A6E4FF"/>
+    </linearGradient>
+    <linearGradient id="ice-left" x1="6" y1="10" x2="16" y2="29" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8BDBFF"/>
+      <stop offset="1" stop-color="#1AA7EC"/>
+    </linearGradient>
+    <linearGradient id="ice-right" x1="26" y1="10" x2="16" y2="29" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EC8F8"/>
+      <stop offset="1" stop-color="#0B8FCF"/>
+    </linearGradient>
+  </defs>
+  <path d="M16 3.2 27.2 10 16 16.8 4.8 10Z" fill="url(#ice-top)"/>
+  <path d="M4.8 10 16 16.8V28.8L4.8 22Z" fill="url(#ice-left)"/>
+  <path d="M27.2 10 16 16.8V28.8L27.2 22Z" fill="url(#ice-right)"/>
+  <path d="M16 3.2 4.8 10l2.4 1.4L16 6.1Z" fill="#fff" opacity=".5"/>
+  <path d="M16 6.6 23.4 11.1 16 15.4 8.6 11.1Z" fill="#fff" opacity=".28"/>
+  <path d="M24.6 11.4 16 16.5v2.3l8.6-5.1Z" fill="#fff" opacity=".12"/>
+</svg>
